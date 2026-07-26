@@ -1,2 +1,0 @@
-# mtp-typemaps
-
