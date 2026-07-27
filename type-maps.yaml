@@ -111,6 +111,9 @@ type_maps:
       MessageReactionRemove: 138
       MessageReactionLive: 139
       MessageDeleteLive: 140
+      ClientStateSync: 141
+      ClientStateAck: 142
+      StateSubscribe: 143
 
     DataTypes:
       ErrorType: 32
@@ -229,3 +232,9 @@ type_maps:
       Reactions: 145
       Reaction: 146
       ReplyId: 147
+      CacheValid: 148
+      CacheSchemaVersion: 149
+      SyncMode: 150
+      MessageId: 151
+      DeletedMessageIds: 152
+      DeletedContactIds: 153
