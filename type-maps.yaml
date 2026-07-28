@@ -114,7 +114,6 @@ type_maps:
       ClientStateSync: 141
       ClientStateAck: 142
       StateSubscribe: 143
-      ClientPing: 144
 
     DataTypes:
       ErrorType: 32
@@ -161,9 +160,6 @@ type_maps:
       Signed: 73
       Message: 74
       MessageState: 75
-      LastPing: 76
-      PingIota: 77
-      PingClients: 78
       Matches: 79
       Omikron: 80
       Offset: 81
