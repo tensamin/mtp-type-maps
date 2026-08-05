@@ -114,6 +114,7 @@ type_maps:
       ClientStateSync: 141
       ClientStateAck: 142
       StateSubscribe: 143
+      SetUserState: 144
 
     DataTypes:
       ErrorType: 32
