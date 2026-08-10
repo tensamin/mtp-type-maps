@@ -114,16 +114,15 @@ type_maps:
       ClientStateSync: 141
       ClientStateAck: 142
       StateSubscribe: 143
-      SetUserState: 144
-      AttachUserBegin: 145
-      AttachUserChallenge: 146
-      AttachUserComplete: 147
-      ReleaseUserFromIota: 148
-      DeleteUserCredentialBegin: 149
-      DeleteUserCredentialChallenge: 150
-      DeleteUserCredentialComplete: 151
-      EraseHostedUserData: 152
-      EraseHostedUserDataAck: 153
+      AttachUserBegin: 144
+      AttachUserChallenge: 145
+      AttachUserComplete: 146
+      ReleaseUserFromIota: 147
+      DeleteUserCredentialBegin: 148
+      DeleteUserCredentialChallenge: 149
+      DeleteUserCredentialComplete: 150
+      EraseHostedUserData: 151
+      EraseHostedUserDataAck: 152
 
     DataTypes:
       ErrorType: 32
