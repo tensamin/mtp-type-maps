@@ -135,7 +135,6 @@ type_maps:
       PrivateKeyHash: 51
       AcceptedProfiles: 52
       DeniedProfiles: 53
-      Content: 54
       Messages: 55
       Notifications: 56
       SendTime: 57
@@ -174,7 +173,6 @@ type_maps:
       Interactables: 90
       WantToWatch: 91
       Watcher: 92
-      CreatedAt: 93
       Username: 94
       Display: 95
       Avatar: 96
