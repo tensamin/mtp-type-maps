@@ -239,7 +239,6 @@ type_maps:
       CacheValid: 148
       CacheSchemaVersion: 149
       SyncMode: 150
-      MessageId: 151
       DeletedMessageIds: 152
       DeletedContactIds: 153
       MissingUserIds: 154
