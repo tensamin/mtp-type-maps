@@ -128,6 +128,22 @@ type_maps:
       SyncedSettingDelete: 155
       SyncedSettingsList: 156
       SyncedSettingChanged: 157
+      UserBlobPut: 158
+      UserBlobGet: 159
+      UserBlobDelete: 160
+      UserBlobList: 161
+      UserBlobChanged: 162
+      UserBlock: 163
+      UserUnblock: 164
+      BlockedUsersGet: 165
+      ReceiptPolicyGet: 166
+      ReceiptPolicySet: 167
+      MessageStoragePolicyGet: 168
+      MessageStoragePolicySet: 169
+      UserBlockCheck: 170
+      ReceiptPolicyChanged: 171
+      MessageStoragePolicyChanged: 172
+      BlockedUsersChanged: 173
 
     DataTypes:
       ErrorType: 32
@@ -262,3 +278,17 @@ type_maps:
       SettingScope: 167
       SettingTarget: 168
       DeletedSettingIds: 169
+      BlobId: 170
+      Blob: 171
+      BlobIds: 172
+      Blobs: 173
+      ExpectedRevision: 174
+      DeletedBlobIds: 175
+      BlockedUserId: 176
+      BlockedUserIds: 177
+      IsBlocked: 178
+      SendReadReceipts: 179
+      SendReceivedReceipts: 180
+      MessageHistoryMode: 181
+      MessageRetentionDuration: 182
+      Deleted: 183
