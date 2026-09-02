@@ -144,6 +144,10 @@ type_maps:
       ReceiptPolicyChanged: 171
       MessageStoragePolicyChanged: 172
       BlockedUsersChanged: 173
+      CreateUserInvitation: 174
+      RedeemUserInvitation: 175
+      ProvisionIotaUser: 176
+      AcknowledgeIotaUserProvision: 177
 
     DataTypes:
       ErrorType: 32
@@ -292,3 +296,8 @@ type_maps:
       MessageHistoryMode: 181
       MessageRetentionDuration: 182
       Deleted: 183
+      InvitationId: 184
+      InvitationToken: 185
+      InvitationTokenHash: 186
+      InvitationExpiresAt: 187
+      InvitationState: 188
