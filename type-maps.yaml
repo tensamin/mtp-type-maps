@@ -301,3 +301,4 @@ type_maps:
       InvitationTokenHash: 186
       InvitationExpiresAt: 187
       InvitationState: 188
+      CallEndpoint: 189
