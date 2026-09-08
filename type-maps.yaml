@@ -148,6 +148,7 @@ type_maps:
       RedeemUserInvitation: 175
       ProvisionIotaUser: 176
       AcknowledgeIotaUserProvision: 177
+      ClientStateGet: 178
 
     DataTypes:
       ErrorType: 32
@@ -302,3 +303,4 @@ type_maps:
       InvitationExpiresAt: 187
       InvitationState: 188
       CallEndpoint: 189
+      PresenceSnapshotComplete: 190
