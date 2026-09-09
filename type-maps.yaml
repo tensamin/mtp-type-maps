@@ -111,8 +111,8 @@ type_maps:
       MessageReactionRemove: 138
       MessageReactionLive: 139
       MessageDeleteLive: 140
-      ClientStateSync: 141
-      ClientStateAck: 142
+      AccountStateSnapshot: 141
+      AccountStateApplied: 142
       StateSubscribe: 143
       AttachUserBegin: 144
       AttachUserChallenge: 145
@@ -148,7 +148,7 @@ type_maps:
       RedeemUserInvitation: 175
       ProvisionIotaUser: 176
       AcknowledgeIotaUserProvision: 177
-      ClientStateGet: 178
+      AccountStateRequest: 178
 
     DataTypes:
       ErrorType: 32
