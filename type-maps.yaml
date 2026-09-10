@@ -149,6 +149,10 @@ type_maps:
       ProvisionIotaUser: 176
       AcknowledgeIotaUserProvision: 177
       AccountStateRequest: 178
+      ListUserInvitations: 179
+      RevokeUserInvitation: 180
+      GetUserInvitationStatus: 181
+      RegisteringClientAuthenticate: 182
 
     DataTypes:
       ErrorType: 32
@@ -304,3 +308,12 @@ type_maps:
       InvitationState: 188
       CallEndpoint: 189
       PresenceSnapshotComplete: 190
+      InvitationAuthority: 191
+      InvitationPassword: 192
+      InvitationLabel: 193
+      InvitationRevision: 194
+      InvitationCreatedAt: 195
+      InvitationProvisioningAt: 196
+      InvitationLifetimeSeconds: 197
+      Invitations: 198
+      InvitationPasswordProtected: 199
