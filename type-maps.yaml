@@ -90,16 +90,16 @@ type_maps:
       DeleteIota: 117
       StartRegister: 118
       CompleteRegister: 119
-      GetApp: 120
-      CreateApp: 121
-      DeleteApp: 122
-      SaveAppData: 123
-      LoadAppData: 124
-      AppIdentification: 125
-      AppChallenge: 126
-      AppChallengeResponse: 127
-      AppIdentificationResponse: 128
-      LoadTxtRecord: 129
+      TAuthAuthorize: 120
+      TAuthAuthorizationResult: 121
+      TAuthExchangeCode: 122
+      TAuthExchangeCodeResponse: 123
+      TAuthUser: 124
+      TAuthContacts: 125
+      TAuthPublicLookup: 126
+      TAuthMetadataGet: 127
+      TAuthMetadataSet: 128
+      TAuthMetadataDelete: 129
       ErrorNotSet: 130
       SetChatSecret: 131
       GetChatSecret: 132
@@ -153,6 +153,11 @@ type_maps:
       RevokeUserInvitation: 180
       GetUserInvitationStatus: 181
       RegisteringClientAuthenticate: 182
+      TAuthDisconnectDelete: 183
+      TAuthGrantList: 184
+      TAuthGrantRevoke: 185
+      TAuthGrantResponse: 186
+      TAuthGrantMetadataSet: 187
 
     DataTypes:
       ErrorType: 32
@@ -241,11 +246,6 @@ type_maps:
       SessionId: 120
       Contacts: 121
       LastMessage: 122
-      AppIdentifier: 123
-      AppPrivateKey: 124
-      AppPublicKey: 125
-      AppSession: 126
-      AppData: 127
       TauriToken: 128
       Challenge: 129
       EncryptedPayload: 130
@@ -317,3 +317,30 @@ type_maps:
       InvitationLifetimeSeconds: 197
       Invitations: 198
       InvitationPasswordProtected: 199
+      AppId: 200
+      AuthorizationCode: 201
+      SessionToken: 202
+      Scopes: 203
+      Domain: 204
+      RedirectUri: 205
+      RequestSignature: 206
+      State: 207
+      PkceChallenge: 208
+      ExpiresAt: 209
+      ManifestHash: 210
+      ManifestUrl: 211
+      AppName: 212
+      OwnerCertificate: 213
+      OwnerIotaId: 214
+      OmegaUrl: 215
+      OmikronUrl: 216
+      OmikronPublicKey: 217
+      ConnectionMode: 218
+      Locator: 219
+      Json: 220
+      Principal: 221
+      CodeVerifier: 222
+      Insecure: 223
+      AuthorizationRequest: 224
+      TAuthGrants: 225
+      AppPublicBundle: 226
