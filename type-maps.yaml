@@ -158,6 +158,15 @@ type_maps:
       TAuthGrantRevoke: 185
       TAuthGrantResponse: 186
       TAuthGrantMetadataSet: 187
+      UserAssetUploadStart: 188
+      UserAssetUploadChunk: 189
+      UserAssetUploadStatus: 190
+      UserAssetUploadCommit: 191
+      UserAssetUploadAbort: 192
+      UserAssetGetChunk: 193
+      UserAssetList: 194
+      UserAssetDelete: 195
+      UserAssetChanged: 196
 
     DataTypes:
       ErrorType: 32
@@ -344,3 +353,10 @@ type_maps:
       AuthorizationRequest: 224
       TAuthGrants: 225
       AppPublicBundle: 226
+      AssetId: 227
+      UploadId: 228
+      Size: 229
+      Sha256: 230
+      MimeType: 231
+      Assets: 232
+      CommittedAt: 234
