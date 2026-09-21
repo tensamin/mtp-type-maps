@@ -167,6 +167,7 @@ type_maps:
       UserAssetList: 194
       UserAssetDelete: 195
       UserAssetChanged: 196
+      SessionActivitySet: 197
 
     DataTypes:
       ErrorType: 32
@@ -360,3 +361,7 @@ type_maps:
       MimeType: 231
       Assets: 232
       CommittedAt: 234
+      DeviceClass: 235
+      Foreground: 236
+      NotificationCapable: 237
+      SuppressNotification: 238
