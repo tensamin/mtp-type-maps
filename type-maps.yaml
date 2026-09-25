@@ -168,6 +168,13 @@ type_maps:
       UserAssetDelete: 195
       UserAssetChanged: 196
       SessionActivitySet: 197
+      CallReserve: 198
+      CallActivate: 199
+      CallEnvelopeStore: 200
+      CallEnvelopeGet: 201
+      CallContactCheck: 202
+      CallEnded: 203
+      CallContactAccept: 204
 
     DataTypes:
       ErrorType: 32
@@ -365,3 +372,4 @@ type_maps:
       Foreground: 236
       NotificationCapable: 237
       SuppressNotification: 238
+      CallInviterId: 239
