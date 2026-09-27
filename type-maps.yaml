@@ -168,6 +168,28 @@ type_maps:
       UserAssetDelete: 195
       UserAssetChanged: 196
       SessionActivitySet: 197
+      ProvisioningCreate: 198
+      ProvisioningCreated: 199
+      ProvisioningJoin: 200
+      ProvisioningPeerJoined: 201
+      ProvisioningBindAccount: 202
+      ProvisioningAccountBound: 203
+      ProvisioningCancel: 204
+      ProvisioningComplete: 205
+      ProvisioningCredential: 206
+      QrProvisioningConfirm: 207
+      PasswordEnrollmentStart: 208
+      PasswordEnrollmentResponse: 209
+      PasswordEnrollmentFinish: 210
+      PasswordEnrollmentStatus: 211
+      PasswordEnrollmentDisable: 212
+      PasswordProvisioningStart: 213
+      PasswordProvisioningResponse: 214
+      PasswordProvisioningFinish: 215
+      CallContactCheck: 216
+      CallEnvelopeStore: 217
+      CallEnvelopeGet: 218
+      CallContactAccept: 219
 
     DataTypes:
       ErrorType: 32
@@ -365,3 +387,10 @@ type_maps:
       Foreground: 236
       NotificationCapable: 237
       SuppressNotification: 238
+      ProvisioningMethod: 239
+      ProvisioningRole: 240
+      ProvisioningParticipantId: 241
+      OpaqueMessage: 242
+      EncryptedCredential: 243
+      CredentialFormatVersion: 244
+      CallInviterId: 245
