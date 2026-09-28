@@ -190,6 +190,9 @@ type_maps:
       CallEnvelopeStore: 217
       CallEnvelopeGet: 218
       CallContactAccept: 219
+      CallReserve: 220
+      CallActivate: 221
+      CallEnded: 222
 
     DataTypes:
       ErrorType: 32
