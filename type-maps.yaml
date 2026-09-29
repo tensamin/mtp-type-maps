@@ -395,5 +395,4 @@ type_maps:
       ProvisioningParticipantId: 241
       OpaqueMessage: 242
       EncryptedCredential: 243
-      CredentialFormatVersion: 244
       CallInviterId: 245
