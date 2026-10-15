@@ -3,6 +3,7 @@ protocol_version: "1.0"
 type_maps:
   "1.0":
     CommunicationTypes:
+      ProtectedMessage: 32
       ErrorProtocol: 33
       ErrorAnonymous: 34
       ErrorInternal: 35
@@ -193,6 +194,8 @@ type_maps:
       CallReserve: 220
       CallActivate: 221
       CallEnded: 222
+      UserResolve: 223
+      UserResolved: 224
 
     DataTypes:
       ErrorType: 32
@@ -396,3 +399,7 @@ type_maps:
       OpaqueMessage: 242
       EncryptedCredential: 243
       CallInviterId: 245
+      UserAddress: 246
+      AuthorityId: 247
+      NodeId: 248
+      SigningKeys: 249
