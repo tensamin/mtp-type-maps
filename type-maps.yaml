@@ -196,6 +196,7 @@ type_maps:
       CallEnded: 222
       UserResolve: 223
       UserResolved: 224
+      RelayReceiptPage: 225
 
     DataTypes:
       ErrorType: 32
@@ -403,3 +404,9 @@ type_maps:
       AuthorityId: 247
       NodeId: 248
       SigningKeys: 249
+      ReceiptCursor: 250
+      ReceiptUpper: 251
+      ReceiptMore: 252
+      ReceiptComplete: 253
+      ReceiptSequence: 254
+      ReceiptAcceptedAt: 255
