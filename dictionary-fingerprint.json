@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "algorithm": "sha256",
+  "serialization": "mtp-type-dictionary-v1",
+  "fingerprint": "02af6e65ae31d7c2f7d30414b7917e3637705871a8574dfeee834ebd81122450",
+  "reserved_data_allocations": {
+    "DictionaryFingerprint": 27
+  }
+}
